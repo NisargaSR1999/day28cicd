@@ -18,6 +18,9 @@ public class CiCdPipelineApplication {
 		return "Hello From CI-CD Pipeline Application";
 	}
 
-	
+	@GetMapping("/hello morld")
+	public String helloworld(){
+		return "Hello From CI-CD Pipeline Application";
+	}
 
 }
