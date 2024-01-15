@@ -1,0 +1,9 @@
+  stages:
+    - build
+
+  build:
+    image: maven:latest
+    script:
+      - mvn clean package
+      - mvn test
+      - mvn pmd:check
